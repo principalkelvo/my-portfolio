@@ -272,6 +272,9 @@ body{
     display: block;
     margin: auto;
     height: 200px;
+    /* change to black and white  */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0*/
+    filter: grayscale(100%);
 }
 
 .skill-name{
@@ -304,40 +307,46 @@ body{
 }
 
 /*skill cards*/
+/* html */
 .skill-card:nth-child(1) .skill-level{
     background: #ff4f4f28;
     border-color: #ff4f4f;
     color: #ff4f4f;
 }
 
+/* css */
 .skill-card:nth-child(2) .skill-level{
     background: #4fa0ff28;
     border-color: #4fa0ff;
     color: #4fa0ff;
 }
 
+/* js */
 .skill-card:nth-child(3) .skill-level{
     background: #ffed4f28;
     border-color: #ffed4f;
     color: #ffed4f;
 }
 
+/* vue */
 .skill-card:nth-child(4) .skill-level{
-    background: #52ff4f28;
-    border-color: #52ff4f;
-    color: #52ff4f;
+    background: #52ffb128;
+    border-color: #52ffb1;
+    color: #52ffb1;
 }
 
+/* django */
 .skill-card:nth-child(5) .skill-level{
-    background: #4fdfff28;
-    border-color: #4fdfff;
-    color: #4fdfff;
+    background: #47ffc228;
+    border-color: #47ffc2;
+    color: #47ffc2;
 }
 
+/* wordpress */
 .skill-card:nth-child(6) .skill-level{
-    background: #be4fff28;
-    border-color: #aa4fff;
-    color: #aa4fff;
+    background: #48cbff28;
+    border-color: #48cbff;
+    color: #48cbff;
 }
 
 /* timeline */
@@ -422,16 +431,16 @@ body{
     background: #ffb84f;
 }
 .card:nth-child(4), .card:nth-child(4):before{
-    background: #3dca5c;
+    background: #52ffb1;
 }
 .card:nth-child(5), .card:nth-child(5):before{
-    background: #565252;
+    background: #48cbff;
 }
 .card:nth-child(6), .card:nth-child(6):before{
     background: #4fa0ff;
 }
 .card:nth-child(7), .card:nth-child(7):before{
-    background: #aa4fff;
+    background: #47ffc2;
 }
 
 .card:nth-child(even) .card-body:before{
