@@ -430,6 +430,9 @@ body{
 .card:nth-child(6), .card:nth-child(6):before{
     background: #4fa0ff;
 }
+.card:nth-child(7), .card:nth-child(7):before{
+    background: #aa4fff;
+}
 
 .card:nth-child(even) .card-body:before{
     content: '';
